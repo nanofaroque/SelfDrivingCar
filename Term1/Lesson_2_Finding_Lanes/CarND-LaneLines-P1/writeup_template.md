@@ -10,7 +10,7 @@ The goals / steps of this project are the following:
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+![alt tag][https://github.com/nanofaroque/SelfDrivingCar/blob/master/Term1/Lesson_2_Finding_Lanes/CarND-LaneLines-P1/test_images/solidWhiteCurve.jpg]
 
 ---
 
@@ -26,7 +26,7 @@ The goals / steps of this project are the following:
 3. After finding edge from the gray scale image and bluring, I had to find the region of interest. To do that I used the constant cordinate of the image. such as [(0,imshape[0]),(450, 320), (490, 320), (imshape[1],imshape[0])]. Hough Lines method helps to find all the cordinates of the line. Then I had to draw the line what gives us lanes. 
 4. Drawing solid line to identify the left and right lane, From my points of interest, I identify a particular point in x cordinates what seperates both lanes. Then I create two list of line cordinates (got from hough line). Then by using min and max value of x,y, found two points and draw the solid line. 
 
-![alt tag][https://github.com/nanofaroque/SelfDrivingCar/blob/master/Term1/Lesson_2_Finding_Lanes/CarND-LaneLines-P1/test_images/solidWhiteCurve.jpg]
+![alt tag][https://github.com/nanofaroque/SelfDrivingCar/blob/master/Term1/Lesson_2_Finding_Lanes/Screen%20Shot%202017-02-21%20at%2012.11.17%20AM.png]
 
 
 ###2. Potential shortcomings 
